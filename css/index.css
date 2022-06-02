@@ -1,0 +1,39 @@
+.container {
+	padding: 0;
+    margin: 20px auto;
+}
+
+.outer {
+	height: 100vh;
+}
+
+.outer .col-md-4 {
+	padding: 0;
+}
+
+.todo-section {
+	border: 2px solid black;
+	height: 100%;
+	margin: 10px;
+}
+.todo-section .display-4 {
+	text-align: center;
+	background-color:burlywood;
+	padding: 5px 0;
+}
+.main-btn-outer{
+	width: 100%;
+	text-align: center;
+}
+.to-do-card{
+    margin: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.to-do-card .card-header{
+    background-color: white;
+}
+
+.to-do-card .card-title{
+    margin-bottom: 20px;
+}
+
