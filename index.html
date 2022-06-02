@@ -50,12 +50,11 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="
-    createToDoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="createToDoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Create To-Do Item</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -67,12 +66,13 @@
                         <option selected value="Medium">Medium</option>
                         <option value="Low">Low</option>
                     </select>
-
+                    <input class="form-control form-control-lg mt-3" type="datetime-local"
+                        aria-label=".form-control-lg example-2" id="todo-deadline">
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancle</button>
-                    <button type="button" class="btn btn-dark" onclick="createTodo()">Create To Do</button>
-
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-dark" onclick="createTodo()"
+                        data-bs-dismiss="modal">Create</button>
                 </div>
             </div>
         </div>
