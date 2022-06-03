@@ -79,7 +79,7 @@ const createTodoDiv = (todoProirityInput,todoInput,todoDeadline) => {
 
 
     todoBlock.appendChild(cardDiv);
-    toDoCardDiv.addEventListener('dragstart', toDoDragStart)
+    cardDiv.addEventListener('dragstart', toDoDragStart)
     delBtn.addEventListener('click', () => {
         cardDiv.style.display = "none";
     })
