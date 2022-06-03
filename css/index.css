@@ -31,13 +31,19 @@
 }
 .to-do-card .card-header{
     background-color: white;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .to-do-card .card-title{
     margin-bottom: 20px;
 }
 .date{
-	margin-left: 50px;
+	margin-left: 10px;
 	color: black;
+}
+.to-do-card .btn{
+	float: right;
 }
 

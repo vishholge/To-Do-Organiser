@@ -24,9 +24,9 @@
             <div class="col-md-4 col-xs-12">
                 <div class="todo-section" id="to-do-block" ondragover="allowDrop(event)" ondrop="toDoDrop(event)">
                     <h1 class="display-4">To-Do</h1>
-                    <div class="card to-do-card">
+                    <div class="card to-do-card" draggable="true" ondragstart="toDoDragStart()" ondrag="toDoDrop()" >
                         <div class="card-header">
-                            <span class="badge rounded-pill bg-danger"></span>
+                            <span class="badge rounded-pill bg-danger">hiii</span>
 
                         </div>
                         <div class="card-body">
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-xs-12">
-                <div class="todo-section" id="completed-block" ondragover="allowDrop(event)" ondrop="toDoDrop(event)">
+                <div class="todo-section" id="completed-block" ondragover="allowDrop(event)" ondrop="toDoDrop(event)" >
                     <h1 class="display-4">Completed</h1>
                 </div>
             </div>
@@ -78,6 +78,7 @@
         </div>
     </div>
     <script src="js/index.js"></script>
+    <script src="js/dragdiv.js"></script>
 </body>
 
 </html>
